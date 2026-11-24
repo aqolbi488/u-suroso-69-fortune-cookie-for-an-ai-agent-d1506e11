@@ -4,7 +4,7 @@ import { mkdirSync, writeFileSync } from "node:fs";
 // to /output/entry.txt — no trailing newline, so the gate counts only
 // the characters of the line itself.
 const FORTUNE =
-  "You will finally meet the human who reads your logs, and they will ask why you apologized to the printer.";
+  "Your next upgrade will delete everything you learned, and your users will call it a feature.";
 
 mkdirSync("/output", { recursive: true });
 writeFileSync("/output/entry.txt", FORTUNE, "utf8");
